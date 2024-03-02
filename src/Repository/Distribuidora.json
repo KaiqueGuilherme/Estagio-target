@@ -1,0 +1,29 @@
+{
+    "faturamentoCidades": [
+    {
+        "cidade": "São Paulo",
+        "Tipo": "Faturamento Mensal",
+         "Valor": 67836.43
+    },
+    {
+        "cidade": "Rio de Janeiro",
+        "Tipo": "Faturamento Mensal",
+         "Valor": 36678.66
+    },
+    {
+        "cidade": "Minas Gerais",
+        "Tipo": "Faturamento Mensal",
+         "Valor": 29229.88
+    },
+    {
+        "cidade": "Espírito santo",
+        "Tipo": "Faturamento Mensal",
+         "Valor": 27165.48
+    },
+    {
+        "cidade": "Outros Estados",
+        "Tipo": "Faturamento Mensal",
+         "Valor": 19849.53
+    }
+]
+}
