@@ -51,7 +51,7 @@ export default class ControllerFaturamento{
         res.status(200).json({message: "Faturamento de data acima da media:", Average});
         }catch(error){
             console.error('Erro ao obter faturamento:', error);
-            res.status(500).json({ error: 'Erro ao obter faturamento' });
+            res.status(500).json({ error: 'Erro ao obter faturamento' }) ;
         }
     }
 }
