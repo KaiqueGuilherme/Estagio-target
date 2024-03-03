@@ -7,7 +7,7 @@ const FibonacciRouter = express.Router();
 const controllerFibonacci= new ControllerFibonacci();
 
 
-FibonacciRouter.post('/Fibonacci', controllerFibonacci.FibonacciC);
+FibonacciRouter.post('/SomaFibonacci', controllerFibonacci.FibonacciC);
 
 
 export default FibonacciRouter;

@@ -10,10 +10,10 @@ export function serverCreate() {
 
     Tardex.use(express.json());
 
-    Tardex.use('/api', faturamentoRouter);
-    Tardex.use('/api2', DistribuidoraRouter);
-    Tardex.use('/api3', StringRouter);
-    Tardex.use('/api4', FibonacciRouter);
+    Tardex.use('/Faturamento', faturamentoRouter);
+    Tardex.use('/Distribuidora', DistribuidoraRouter);
+    Tardex.use('/StringReverse', StringRouter);
+    Tardex.use('/Fibonacci', FibonacciRouter);
     
 
     return Tardex;
