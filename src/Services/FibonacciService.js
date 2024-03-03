@@ -4,16 +4,18 @@ export default class ServiceFibonacci {
 
     async Fibonacci(PrimeiroNumero, SegundoNumero) {
         
-        const Numero1 = PrimeiroNumero;
-        const Numero2 = SegundoNumero;
-        const resultados = [];
+        let Numero1 = PrimeiroNumero;
+        let Numero2 = SegundoNumero;
+        const resultados = [Numero1, Numero2];
 
-        while (Numero1 > Numero2) {
-           const number =  Numero1 + Numero2; 
-            resultados.push(number); 
+        for (let c= 0; c < 100; c++) {
+           const numberNext =  Numero1 + Numero2; 
+            resultados.push(numberNext); 
+
+            Numero1 = Numero2;
+            Numero2 = numberNext;
         }
 
       return resultados;
-
-}
+    }
 }
